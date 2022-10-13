@@ -1,0 +1,453 @@
+/* screem iphone android */
+@media only screen and (min-width: 170px) and (max-width: 739px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20.5%;
+        background-color: #4158D0;
+        background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+    .main{
+        padding: 0 6rem;
+    }
+    header{
+        height: 15rem;
+        position: fixed;
+        display: flex;
+        background-image:linear-gradient(#FFCC70,#FFCC70) ;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 3;
+    }
+    header a{
+        padding: 2rem;
+        margin: 0 2rem;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-size: 7rem;
+        color: aliceblue;
+        line-height: 15rem;
+    }
+    .content{
+         padding-top: 15rem;
+         font-size: 7rem;
+    }
+    .title{
+        margin-top: 6rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #eaf213;
+        border: rgb(255, 254, 254, 0.5) 1px solid;
+    }
+    .content_ways{
+        width: 100%;
+        background: rgba(240, 238, 238, 0.1);
+        margin-top: 9rem;
+    }
+    .content_ways li{
+        list-style: none;
+        color: aliceblue;
+        text-align: justify;
+        width: 100%;
+    }
+    .ways_note,
+    .ways{
+        margin-bottom: 3rem;
+        
+    }
+    .ways_note b {
+        color: rgb(209, 52, 52);
+        background-color: aqua;
+    }
+    .ways_note mark{
+        color: red;
+    }
+    .content_ways> li >i{
+    margin-right: 5rem;
+    color: #e2e753;
+    }
+    .ways_3{
+        color: white;
+    }
+    .ways_4 > li{
+        
+    }
+    .ways_2 img,
+    .ways_3 img,
+    .ways_4 img,
+    .ways_5 img,
+    .ways_6 img,
+    .ways_7 img,
+    .ways_8 img,
+    .ways_9 img,
+    .ways_10 img,
+    .ways_11 img,
+    .ways_12 img{
+        margin-top: 3rem;
+        height: 160rem;
+        max-height: 100%;
+        width: 70%;
+        min-width: calc(100%-30%);
+        text-align: center;
+
+    }
+    .ways_8 > .ways_8_1 > li > i{
+        color: #e2e753;
+        margin-right: 5rem;
+    }
+    .ways_8 > .ways_8_1 > li >.way_8_1_1 >li >i{
+        color: #e2e753;
+        margin-right: 5rem;
+    }
+    .way_8_1_1> h3{
+        margin:  6rem 6rem;
+        margin-left: 3rem;
+        font-size: 6rem;
+        color: rgb(174, 237, 25);
+        text-align: justify;
+    }
+    .way_8_1_1> li{
+        text-align: justify;
+        width: 100%;
+    }
+    .way_8_1_1> h3 > i{
+        margin-right: 4rem;
+        color: #d04154;
+    }
+    .ways_8_1 > li > h2{
+        font-size: 6rem;
+        margin: 6rem 0 6rem 6rem;
+    }
+    .ways_8_1 > li > h2>i {
+        font-size: 5rem;
+        color: #e2e753;
+        margin-right: 6rem;
+    }
+    .ways_8 > .ways_8_1 > li >.way_8_1_1 >li {
+        text-align: justify;
+    }
+    video {
+        margin: 2rem 0;
+        width: 99%;
+        object-fit: cover;
+        box-shadow: #e2e753 1px 0 30px;
+        border: 2px solid #e2e753;
+        z-index: 0;
+    }
+
+    .footer{
+        margin: 15rem 0;
+    }
+    .footer h2{
+        text-align: justify;
+        color: #eaf213;
+        font-size: 7rem;
+        margin-bottom: 6rem;
+    }
+    .footer h1{
+        text-align: justify;
+        color: #f0e8e6;
+        font-size: 7rem;
+        margin-bottom: 6rem;
+        background-color: rgba(244, 238, 236, 0.2);
+    }
+}
+/* the end iphone   and android */
+
+/* ddaay laf tablet */
+@media only screen and (min-width: 740px) and (max-width:900px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30.5%;
+        background-color: #4158D0;
+        background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+    .main{
+        padding: 0 6rem;
+    }
+    header{
+        height: 15rem;
+        position: fixed;
+        display: flex;
+        background-image:linear-gradient(#FFCC70,#FFCC70) ;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 3;
+    }
+    header a{
+        padding: 2rem;
+        margin: 0 2rem;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-size: 7rem;
+        color: aliceblue;
+        line-height: 15rem;
+    }
+    .content{
+         padding-top: 15rem;
+         font-size: 7rem;
+    }
+    .title{
+        margin-top: 6rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #eaf213;
+        border: rgb(255, 254, 254, 0.5) 1px solid;
+    }
+    .content_ways{
+        width: 100%;
+        background: rgba(240, 238, 238, 0.1);
+        margin-top: 9rem;
+    }
+    .content_ways li{
+        list-style: none;
+        color: aliceblue;
+        text-align: justify;
+        width: 100%;
+    }
+    .ways_note,
+    .ways{
+        margin-bottom: 3rem;
+        
+    }
+    .ways_note b {
+        color: rgb(209, 52, 52);
+        background-color: aqua;
+    }
+    .ways_note mark{
+        color: red;
+    }
+    .content_ways> li >i{
+    margin-right: 5rem;
+    color: #e2e753;
+    }
+    .ways_3{
+        color: white;
+    }
+    .ways_4 > li{
+        
+    }
+    .ways_2 img,
+    .ways_3 img,
+    .ways_4 img,
+    .ways_5 img,
+    .ways_6 img,
+    .ways_7 img,
+    .ways_8 img,
+    .ways_9 img,
+    .ways_10 img,
+    .ways_11 img,
+    .ways_12 img{
+        margin-top: 3rem;
+        height: 160rem;
+        max-height: 100%;
+        width: 70%;
+        min-width: calc(100%-30%);
+        text-align: center;
+
+    }
+    .ways_8 > .ways_8_1 > li > i{
+        color: #e2e753;
+        margin-right: 5rem;
+    }
+    .ways_8 > .ways_8_1 > li >.way_8_1_1 >li >i{
+        color: #e2e753;
+        margin-right: 5rem;
+    }
+    .way_8_1_1> h3{
+        margin:  6rem 6rem;
+        margin-left: 3rem;
+        font-size: 6rem;
+        color: rgb(174, 237, 25);
+        text-align: justify;
+    }
+    .way_8_1_1> li{
+        text-align: justify;
+        width: 100%;
+    }
+    .way_8_1_1> h3 > i{
+        margin-right: 4rem;
+        color: #d04154;
+    }
+    .ways_8_1 > li > h2{
+        font-size: 6rem;
+        margin: 6rem 0 6rem 6rem;
+    }
+    .ways_8_1 > li > h2>i {
+        font-size: 5rem;
+        color: #e2e753;
+        margin-right: 6rem;
+    }
+    .ways_8 > .ways_8_1 > li >.way_8_1_1 >li {
+        text-align: justify;
+    }
+    video {
+        margin: 3rem 0;
+        width: 99%;
+        object-fit: cover;
+        box-shadow: #e2e753 1px 0 30px;
+        border: 2px solid #e2e753;
+        z-index: 0;
+    }
+
+    .footer{
+        margin: 15rem 0;
+    }
+    .footer h2{
+        text-align: justify;
+        color: #eaf213;
+        font-size: 7rem;
+        margin-bottom: 6rem;
+    }
+    .footer h1{
+        text-align: justify;
+        color: #f0e8e6;
+        font-size: 7rem;
+        margin-bottom: 6rem;
+        background-color: rgba(244, 238, 236, 0.2);
+    }
+
+}
+
+/* the dektops  */
+@media screen and (min-width:900px) and (max-width: 3024px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 60.5%;
+        background-color: #4158D0;
+        background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+    .main{
+        padding: 0 6rem;
+    }
+    header{
+        height: 15rem;
+        position: fixed;
+        display: flex;
+        background-image:linear-gradient(#FFCC70,#FFCC70) ;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 3;
+    }
+    header a{
+        padding: 2rem;
+        margin: 0 2rem;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-size: 4rem;
+        color: aliceblue;
+        line-height: 12rem;
+    }
+    .content{
+        padding-top: 25rem;
+        background-color: rgb(25, 192, 192, 0.3);
+    }
+    .content >.title{
+        text-align: center;
+        font-size: 3rem;
+        color: #e2e753;
+        margin-bottom: 5rem;
+    }
+    .content_ways {
+        list-style: none;
+        color: #f0e8e6;
+        font-size: 3rem;
+    }
+    .content_ways >li> i{
+        color: #e2e753;
+        margin-right: 3rem;
+    }
+    .ways_note b{
+        color: red;
+    }
+    .ways_note{
+        margin: 3rem 0;
+    }
+    .ways_2 > img,
+    .ways_3 > img,
+    .ways_4 > img,
+    .ways_6 > img,
+    .ways_7 > img,
+    .ways_8 > img,
+    .ways_9 > img,
+    .ways_10 > img,
+    .ways_11 > img,
+    .ways_12 > img{
+        width: 50%;
+        height: 10%;
+        object-fit: cover;
+    }
+    .ways_5 > img{
+        width: 50%;
+        height: 10%;
+    }
+    .ways_8_1 > li{
+        color: #f0e8e6;
+        margin: 5rem 0;
+        list-style: none;
+        text-align: justify;
+    }
+    .ways_8_1 > li > i{
+        margin-right: 3rem;
+        color: #e2e753;
+    }
+    .way_8_1_1{
+        list-style: none;
+        color: #f0e8e6;
+    }
+    .way_8_1_1> h3 >i{
+        margin-right: 3rem;
+        color: #e2e753;
+    }
+    .way_8_1_1>  li > i{
+        margin-right: 3rem;
+        color: #e2e753;
+    }
+    .ways_8_1 > li> h2 > i{
+        margin-right: 3rem;
+        color: #e2e753;
+    }
+    video {
+        width: 50%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+    }
+    .footer{
+        margin: 6rem 0;
+    }
+    .footer h2{
+        color: #9cd26f;
+        text-align: justify;
+        margin: 3rem 0;
+    }
+    .footer h1 b{
+        color: #d0a041;
+        font-size: 7rem;
+        font-weight: 600;
+    }
+
+}
